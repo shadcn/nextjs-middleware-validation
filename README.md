@@ -1,25 +1,14 @@
-# reflexjs/nextjs-starter-typescript
+# nextjs-middleware-validation
 
-This is the base starter for kicking off your Nextjs project with Reflexjs and Typescript.
+Validation middlewares for Next.js API routes with Yup.
 
-## Getting Started
+## Installation
 
-```sh
-npx create-next-app -e https://github.com/reflexjs/nextjs-starter-typescript
-```
+Clone this repo and run `yarn install`.
 
-## Running your site
+## Test
 
-```sh
-cd site
+1. Run `yarn dev` to start the development server.
+2. Then make requests to `http://localhost:3000/api/posts`
 
-npm run dev
-```
-
-## Docs
-
-Visit [https://reflexjs.org/docs](https://reflexjs.org/docs) to learn more about Nextjs and Reflexjs.
-
-## License
-
-Licensed under the [MIT license](https://github.com/reflexjs/reflexjs/blob/master/LICENSE).
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/bc79c2e13ff4dc8fd544)
